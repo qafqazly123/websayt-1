@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  padding: 236px 135px 215px 135px;
+  background-color: #fdf0e9;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.img-container video {
+  margin-right: 130px;
+  width: 570px;
+  height: 368px;
+  border-radius: 6px;
+}
+.text-container h4 {
+  margin-bottom: 17px;
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.text-container h2 {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+}
+.text-container p {
+  margin-top: 28px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 124px 23px 81px 23px;
+    flex-direction: column;
+  }
+  .img-container video{
+    width: 329px;
+height: 212px;
+margin-right: 0px;
+  }
+}

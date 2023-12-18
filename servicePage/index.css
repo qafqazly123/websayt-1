@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  padding: 140px 203px 236px 135px;
+  display: flex;
+  background-color: #fdf0e9;
+  min-height: 100vh;
+}
+.left-container {
+  margin-right: 130px;
+}
+.left-container h4 {
+  margin-bottom: 17px;
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H5 */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.left-container h2 {
+  margin-bottom: 31px;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H3 */
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px; /* 120% */
+}
+.left-container p {
+  margin-bottom: 28px;
+  width: 470px;
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.left-container a {
+  text-decoration: none;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Text */
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.right-container {
+  margin-top: 45px;
+}
+.right-container h2 {
+  
+  margin-right: 65px;
+  color: #391400;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H1 */
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px; /* 111.111% */
+  letter-spacing: -2px;
+}
+.right-container p {
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H4 */
+  font-family: Epilogue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.right-container li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 93px 23px 71px 23px;
+        flex-direction: column;
+    }
+   .left-container{
+    margin-right: 0px;
+   }
+   .left-container p{
+    width: 100%;
+   }
+   .right-container{
+    margin-top: 77px;
+   }
+   .right-container h2{
+    margin-right: 38px;
+   }
+   
+    
+}
