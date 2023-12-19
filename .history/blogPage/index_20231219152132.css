@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    padding: 112px 135px 129px 135px;
+    background-color: #FDF0E9;
+
+}
+.collaj{
+    display: flex;
+    js
+}
+.text h4{
+    color: var(--Text_Dark_Accent, #EF6D58);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* H5 */
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.text h1{
+    margin-top: 20px;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* H2 */
+font-family: Epilogue;
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px; /* 114.286% */
+letter-spacing: -1px;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 75px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li h5{
+    margin-top: 26px;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Text_Big */
+font-family: Epilogue;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+li h3{
+    margin-top: 13px;
+    color: var(--Text_Dark, #391400);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* H4 */
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+li p{
+    margin-top: 15px;
+    color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Text */
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+button{
+    align-self: flex-end;
+    width: 170px;
+height: 48px;
+border-radius: 6px;
+border: none;
+background: #FFF;
+box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+}
+button a{
+    color: #391400;
+text-align: center;
+font-family: Epilogue;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+}

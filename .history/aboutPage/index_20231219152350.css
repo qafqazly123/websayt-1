@@ -219,7 +219,7 @@ line-height: 32px; /* 133.333% */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 64px;
+  margin-top: ;
 }
 .container-3 li p{
   color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
@@ -231,16 +231,4 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 200% */
-}
-.container-3 ul li div{
-  border-radius: 6px;
-border: 1px solid #3A3C56;
-height: 272px;
-display: flex;
-align-items: flex-end;
-justify-content: center;
-margin-bottom: 20px;
-}
-li{
-  list-style-type: none;
 }
